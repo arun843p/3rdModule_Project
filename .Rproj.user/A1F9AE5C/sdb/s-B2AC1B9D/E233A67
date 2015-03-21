@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426969914124.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E233A67",
+    "lastKnownWriteTime" : 27303364806049904,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "names(tidy_df)",
+        "contentUrl" : "content?title=names(tidy_df)&file=47f488883b9d46c286a1eba5bdcc40ed.htm",
+        "displayedObservations" : 81,
+        "displayedVariables" : 1,
+        "totalObservations" : 81,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

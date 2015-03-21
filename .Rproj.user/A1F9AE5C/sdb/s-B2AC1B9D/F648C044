@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426969837374.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F648C044",
+    "lastKnownWriteTime" : 3688300152242856805,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "unique(tidy_df$Activity)",
+        "contentUrl" : "content?title=unique(tidy_df%24Activity)&file=9ebc55c55b03421f88f2b9b52eda9b45.htm",
+        "displayedObservations" : 6,
+        "displayedVariables" : 1,
+        "totalObservations" : 6,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
