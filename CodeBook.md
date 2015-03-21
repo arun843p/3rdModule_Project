@@ -10,9 +10,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ### Source
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
+DITEN - UniversitÃ  degli Studi di Genova, Genoa (I-16145), Italy. 
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
-Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+Universitat PolitÃ¨cnica de Catalunya (BarcelonaTech). Vilanova i la GeltrÃº (08800), Spain
 activityrecognition '@' smartlab.ws
 
 ### Data Set Information
@@ -50,6 +50,7 @@ _________Each Variable measures is in different column
 
 ### Final Data Frame -Tidy Data
 _________Each observation of all variables is in different row
+
 _________There should be one table for each "kind" of variables [This table contains variables from 1 experiment based on 1 device]
 * Average for each variable is derived for the unique comination of Suject Id & Activity
 * Column names of data frame cleaned up to strip off not-allowed charactes in column names
