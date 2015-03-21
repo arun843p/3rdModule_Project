@@ -42,11 +42,19 @@ run_analysis <- function() {
         ####Melting Data Frame on Variables
         melt_tdy <- melt(main_tdy1,id=c("Subject.ID","Activity"),measure.vars=c(3:81))
         ####Casting Data Frame for having means across all columns
-        tidy_df <- dcast(melt_tdy,Subject.ID+Activity~variable,mean) ####Data Frame as required by 5thgetw part of Course Project
+        tidy_df <- dcast(melt_tdy,Subject.ID+Activity~variable,mean) ####Data Frame as required by 5th part of Course Project
+        ##Cleaning up column names
+        names(tidy_df) <- gsub("..",".",names(tidy_df),fixed=TRUE)
+        names(tidy_df) <- gsub("mean","Mean",names(tidy_df),fixed=TRUE)
+        names(tidy_df) <- gsub("std","Std",names(tidy_df),fixed=TRUE)
+        ####Removing dot at end of column name
+        names(tidy_df) <- gsub("\\.$","",names(tidy_df))
+        
+        tidy_df
         
         ###Following Write command was used ---here sep ="\t" makes text file more readable
         ###If we copy paste data fro msuch text files in excel (Win), it will be formatted automatically in columns
-        ##>##write.table(one, "./Tidy_data_frame.txt",row.name=FALSE,sep = "\t")
+        ##>##write.table(tidy_df, "./Tidy_data_frame.txt",row.name=FALSE,sep = "\t")
         
         
 }
